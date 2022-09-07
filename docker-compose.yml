@@ -2,6 +2,7 @@ version: "3"
 services:
   server:
     image: finall
+    
     ports:
       - "8030:8080"
     environment:
